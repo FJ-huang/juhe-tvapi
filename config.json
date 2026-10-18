@@ -416,11 +416,6 @@
             "api": "https://360zy.tv/api.php/provide/vod/",
             "detail": "https://360zy.tv"
         },
-        "🐹dxawi_IK": {
-            "name": "🐹dxawi·IK",
-            "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
-            "detail": "https://ikunzyapi.com"
-        },
         "🍯HG_csp_xml_索尼资源": {
             "name": "🍯HG·🐝索尼资源",
             "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
@@ -440,6 +435,11 @@
             "name": "🍯HG·🐝暴风资源",
             "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
             "detail": "https://bfzyapi.com"
+        },
+        "🐹dxawi_IK": {
+            "name": "🐹dxawi·IK",
+            "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
+            "detail": "https://ikunzyapi.com"
         },
         "🚀小马_电影天堂": {
             "name": "🚀小马·️天堂┃采集",
@@ -1266,15 +1266,6 @@
             "filterable": 1
         },
         {
-            "key": "🐹dxawi_IK",
-            "name": "🐹dxawi·IK",
-            "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "🍯HG_csp_xml_索尼资源",
             "name": "🍯HG·🐝索尼资源",
             "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
@@ -1305,6 +1296,15 @@
             "key": "🍯HG_csp_xml_暴风资源",
             "name": "🍯HG·🐝暴风资源",
             "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "🐹dxawi_IK",
+            "name": "🐹dxawi·IK",
+            "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
