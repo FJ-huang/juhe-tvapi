@@ -291,11 +291,6 @@
             "api": "https://pz.v88.qzz.io/?url=https://cj.rycjapi.com/api.php/provide/vod",
             "detail": "https://pz.v88.qzz.io"
         },
-        "jinyingzy.com": {
-            "name": "🎬金鹰点播",
-            "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
-            "detail": "https://jyzyapi.com"
-        },
         "730acd683fc317fa1a584e5613e727f0": {
             "name": "2-非凡",
             "api": "http://cj.ffzyapi.com//api.php/provide/vod/",
@@ -410,6 +405,11 @@
             "name": "66-360*",
             "api": "https://360zy.tv/api.php/provide/vod/",
             "detail": "https://360zy.tv"
+        },
+        "jinyingzy.com": {
+            "name": "🎬金鹰点播",
+            "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
+            "detail": "https://jyzyapi.com"
         },
         "🐹dxawi_IK": {
             "name": "🐹dxawi·IK",
@@ -1036,15 +1036,6 @@
             "filterable": 1
         },
         {
-            "key": "jinyingzy.com",
-            "name": "🎬金鹰点播",
-            "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "730acd683fc317fa1a584e5613e727f0",
             "name": "2-非凡",
             "api": "http://cj.ffzyapi.com//api.php/provide/vod/",
@@ -1246,6 +1237,15 @@
             "key": "e5df2aa0492ba0d57b047c1cdf009001",
             "name": "66-360*",
             "api": "https://360zy.tv/api.php/provide/vod/",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "jinyingzy.com",
+            "name": "🎬金鹰点播",
+            "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
