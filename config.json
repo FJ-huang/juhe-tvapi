@@ -381,10 +381,25 @@
             "api": "https://www.haohuazy.com/api.php/provide/vod/",
             "detail": "https://www.haohuazy.com"
         },
+        "dcbb4b646ce9e6b0c0565925f2008037": {
+            "name": "40-橘猫采集",
+            "api": "http://www.zitv.cc/api.php/provide/vod/",
+            "detail": "http://www.zitv.cc"
+        },
         "fbfa5eed414e1f6137f2496a68005ef5": {
             "name": "43-HG",
             "api": "https://hong.hgyx.vip/api.php/provide/vod/",
             "detail": "https://hong.hgyx.vip"
+        },
+        "9d8b0f25e739dc88f3a9aa3ccd54b1a5": {
+            "name": "50-淘片",
+            "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+            "detail": "https://taopianapi.com"
+        },
+        "f333ebedb73901ca466a8ebc6aeab0da": {
+            "name": "52-淘片",
+            "api": "https://taopianapi.com/cjapi/mc/vod/json/m3u8.html",
+            "detail": "https://taopianapi.com"
         },
         "cc8221d0e6ce9ce89d28e502caeb555d": {
             "name": "56-天涯",
@@ -1198,9 +1213,36 @@
             "filterable": 1
         },
         {
+            "key": "dcbb4b646ce9e6b0c0565925f2008037",
+            "name": "40-橘猫采集",
+            "api": "http://www.zitv.cc/api.php/provide/vod/",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "fbfa5eed414e1f6137f2496a68005ef5",
             "name": "43-HG",
             "api": "https://hong.hgyx.vip/api.php/provide/vod/",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "9d8b0f25e739dc88f3a9aa3ccd54b1a5",
+            "name": "50-淘片",
+            "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "f333ebedb73901ca466a8ebc6aeab0da",
+            "name": "52-淘片",
+            "api": "https://taopianapi.com/cjapi/mc/vod/json/m3u8.html",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
