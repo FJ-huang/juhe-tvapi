@@ -111,11 +111,6 @@
             "api": "http://cj.ffzyapi.com/api.php/provide/vod",
             "detail": "http://cj.ffzyapi.com"
         },
-        "feifan1": {
-            "name": "非凡线路1",
-            "api": "http://ffzy1.tv/api.php/provide/vod",
-            "detail": "http://ffzy1.tv"
-        },
         "baofeng2": {
             "name": "暴风APP",
             "api": "https://app.bfzyapi.com/api.php/provide/vod",
@@ -305,16 +300,6 @@
             "name": "7-非凡",
             "api": "http://ffzy4.tv/api.php/provide/vod/",
             "detail": "http://ffzy4.tv"
-        },
-        "4d6422f0a2bc81fc9606ecc2d97208eb": {
-            "name": "8-非凡",
-            "api": "http://ffzy.tv/api.php/provide/vod/",
-            "detail": "http://ffzy.tv"
-        },
-        "a794df941b177a5eb1e4e991fb5eaccb": {
-            "name": "9-非凡",
-            "api": "http://www.ffzy.tv/api.php/provide/vod/",
-            "detail": "http://www.ffzy.tv"
         },
         "16952cefcaeeda11b0bae2529a576e12": {
             "name": "11-暴风",
@@ -717,15 +702,6 @@
             "filterable": 1
         },
         {
-            "key": "feifan1",
-            "name": "非凡线路1",
-            "api": "http://ffzy1.tv/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "baofeng2",
             "name": "暴风APP",
             "api": "https://app.bfzyapi.com/api.php/provide/vod",
@@ -1062,24 +1038,6 @@
             "key": "ad1116ca9a9b3057570066086c9c9698",
             "name": "7-非凡",
             "api": "http://ffzy4.tv/api.php/provide/vod/",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "4d6422f0a2bc81fc9606ecc2d97208eb",
-            "name": "8-非凡",
-            "api": "http://ffzy.tv/api.php/provide/vod/",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "a794df941b177a5eb1e4e991fb5eaccb",
-            "name": "9-非凡",
-            "api": "http://www.ffzy.tv/api.php/provide/vod/",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
