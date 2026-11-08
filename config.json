@@ -1,5 +1,5 @@
 {
-    "cache_time": 7200,
+    "cache_time": 9200,
     "api_site": {
         "feifan": {
             "name": "非凡资源",
@@ -171,11 +171,6 @@
             "api": "https://suoniapi.com/api.php/provide/vod",
             "detail": "https://suoniapi.com"
         },
-        "maotai": {
-            "name": "茅台资源",
-            "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-            "detail": "https://caiji.maotaizy.cc"
-        },
         "subo": {
             "name": "速博资源",
             "api": "https://subocaiji.com/api.php/provide/vod",
@@ -221,30 +216,35 @@
             "api": "https://apilsbzy1.com/api.php/provide/vod",
             "detail": "https://apilsbzy1.com"
         },
+        "api_1": {
+            "name": "TV-1080资源",
+            "api": "https://api.1080zyku.com/inc/api_mac10.php",
+            "detail": "https://api.1080zyku.com"
+        },
+        "api_4": {
+            "name": "TV-CK资源",
+            "api": "https://ckzy.me/api.php/provide/vod",
+            "detail": "https://ckzy.me"
+        },
+        "api_43": {
+            "name": "TV-金鹰资源",
+            "api": "https://jyzyapi.com/api.php/provide/vod",
+            "detail": "https://jyzyapi.com"
+        },
+        "iqiyi": {
+            "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
+            "name": "iqiyi资源",
+            "detail": "https://www.iqiyizyapi.com"
+        },
         "kczy": {
             "name": "快车资源",
             "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
             "detail": "https://caiji.kuaichezy.org"
         },
-        "zy1080": {
-            "name": "1080资源",
-            "api": "https://api.1080zyku.com/inc/api_mac10.php",
-            "detail": "https://api.1080zyku.com"
-        },
-        "ckzy": {
-            "name": "CK资源",
-            "api": "https://ckzy.me/api.php/provide/vod",
-            "detail": "https://ckzy.me"
-        },
         "maoyan": {
             "name": "猫眼资源",
             "api": "https://api.maoyanapi.top/api.php/provide/vod",
             "detail": "https://api.maoyanapi.top"
-        },
-        "jyzy": {
-            "name": "金鹰资源",
-            "api": "https://jyzyapi.com/api.php/provide/vod",
-            "detail": "https://jyzyapi.com"
         },
         "lzi2": {
             "name": "量子资源",
@@ -256,7 +256,7 @@
             "api": "https://360zyzz.com/api.php/provide/vod",
             "detail": "https://360zyzz.com"
         },
-        "iqiyi": {
+        "iqiyi_2": {
             "name": "爱奇艺",
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
             "detail": "https://iqiyizyapi.com"
@@ -275,11 +275,6 @@
             "name": "如意资源(代理)",
             "api": "https://pz.v88.qzz.io/?url=https://cj.rycjapi.com/api.php/provide/vod",
             "detail": "https://pz.v88.qzz.io"
-        },
-        "iqiyi_2": {
-            "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
-            "name": "iqiyi资源",
-            "detail": "https://www.iqiyizyapi.com"
         },
         "jinyingzy.com": {
             "name": "🎬金鹰点播",
@@ -456,11 +451,6 @@
             "api": "https://api.yyzy-tv.vip/inc/apijson.php",
             "detail": "https://api.yyzy-tv.vip"
         },
-        "Clun📚在线_茅台": {
-            "name": "Clun📚在线·茅台 | 采集",
-            "api": "https://mtzy.me/api.php/provide/vod/",
-            "detail": "https://mtzy.me"
-        },
         "心魔📚在线_csp_xml_无尽": {
             "name": "心魔📚在线·❤无尽资源",
             "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
@@ -495,11 +485,6 @@
             "name": "心魔📚在线·❤ikun资源",
             "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
             "detail": "https://ikunzyapi.com"
-        },
-        "请勿贩卖📚在线_采集集合": {
-            "name": "请勿贩卖📚在线·采集集合",
-            "api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
-            "detail": "http://zhangqun1818.serv00.net"
         }
     },
     "sites": [
@@ -810,15 +795,6 @@
             "filterable": 1
         },
         {
-            "key": "maotai",
-            "name": "茅台资源",
-            "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "subo",
             "name": "速博资源",
             "api": "https://subocaiji.com/api.php/provide/vod",
@@ -900,6 +876,42 @@
             "filterable": 1
         },
         {
+            "key": "api_1",
+            "name": "TV-1080资源",
+            "api": "https://api.1080zyku.com/inc/api_mac10.php",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "api_4",
+            "name": "TV-CK资源",
+            "api": "https://ckzy.me/api.php/provide/vod",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "api_43",
+            "name": "TV-金鹰资源",
+            "api": "https://jyzyapi.com/api.php/provide/vod",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "iqiyi",
+            "name": "iqiyi资源",
+            "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "kczy",
             "name": "快车资源",
             "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
@@ -909,36 +921,9 @@
             "filterable": 1
         },
         {
-            "key": "zy1080",
-            "name": "1080资源",
-            "api": "https://api.1080zyku.com/inc/api_mac10.php",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "ckzy",
-            "name": "CK资源",
-            "api": "https://ckzy.me/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "maoyan",
             "name": "猫眼资源",
             "api": "https://api.maoyanapi.top/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "jyzy",
-            "name": "金鹰资源",
-            "api": "https://jyzyapi.com/api.php/provide/vod",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -963,7 +948,7 @@
             "filterable": 1
         },
         {
-            "key": "iqiyi",
+            "key": "iqiyi_2",
             "name": "爱奇艺",
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
             "type": 1,
@@ -993,15 +978,6 @@
             "key": "ruyi_2",
             "name": "如意资源(代理)",
             "api": "https://pz.v88.qzz.io/?url=https://cj.rycjapi.com/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "iqiyi_2",
-            "name": "iqiyi资源",
-            "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -1323,15 +1299,6 @@
             "filterable": 1
         },
         {
-            "key": "Clun📚在线_茅台",
-            "name": "Clun📚在线·茅台 | 采集",
-            "api": "https://mtzy.me/api.php/provide/vod/",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "心魔📚在线_csp_xml_无尽",
             "name": "心魔📚在线·❤无尽资源",
             "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
@@ -1389,15 +1356,6 @@
             "key": "心魔📚在线_csp_xml_ikun",
             "name": "心魔📚在线·❤ikun资源",
             "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "请勿贩卖📚在线_采集集合",
-            "name": "请勿贩卖📚在线·采集集合",
-            "api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
