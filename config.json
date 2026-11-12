@@ -176,6 +176,11 @@
             "api": "https://suoniapi.com/api.php/provide/vod",
             "detail": "https://suoniapi.com"
         },
+        "maotai": {
+            "name": "茅台资源",
+            "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+            "detail": "https://caiji.maotaizy.cc"
+        },
         "subo": {
             "name": "速博资源",
             "api": "https://subocaiji.com/api.php/provide/vod",
@@ -818,6 +823,15 @@
             "key": "suoni",
             "name": "索尼资源",
             "api": "https://suoniapi.com/api.php/provide/vod",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "maotai",
+            "name": "茅台资源",
+            "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
